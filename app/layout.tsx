@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YOLOV8 - ONNX - WASM",
+  title: "DETECTION - YOLOV8",
   description: "YOLOV8 running on the browser!",
 };
 
