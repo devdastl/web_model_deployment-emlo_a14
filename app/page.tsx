@@ -58,7 +58,7 @@ export default function Home() {
   };
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-3xl">YOLOV8 - ONNX - WASM</h1>
+      <h1 className="text-3xl">DETECTION - YOLOV8</h1>
       {loading && <>Loading Model...</>}
       <img
         ref={inputImageRef}
